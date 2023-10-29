@@ -1,0 +1,195 @@
+* {
+/*    border: 1px solid white;*/
+}
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+    background-color: black;
+    background: url(./images/green.png) no-repeat center center fixed;   
+    background-size: cover;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+.header {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+}
+.header .left {
+    font-size: 32px;
+    font-weight: 900;
+    margin: 4px;
+}
+.header .right {
+    display: flex;
+    align-items: center;
+}
+.hero {
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    height: 100vh;
+    flex-wrap: wrap;
+    background: linear-gradient(rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.4) 100%)
+}
+.hero .left {
+    display: flex;
+    flex-flow: column;
+    gap: 6px;
+    padding: 30px;
+    margin-bottom: -200px;
+}
+.hero .title {
+    font-size: 48px;
+    font-weight: 900;
+    margin-top: 160px;
+    max-width: 800px;
+    
+}
+.hero .text {
+    padding: 0;
+    max-width: 550px;
+}
+.hero button {
+    font-size: 16px;
+    margin-bottom: -100px;
+    background-color: #2c7676;
+    color: white;
+    font-weight: 700;
+    border-radius: 4px;
+    padding: .5em 2em;
+}
+.hero .right {
+    flex: 0 1 auto;
+}
+.hero .right img{
+    width: 250px;
+    margin-top: 200px;
+}
+.header {
+    color: white;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+    text-shadow: 1px 1px 1px black;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li {
+    display: inline;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+    color: white;
+    padding: .5em;
+}
+.gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 900px;
+    flex: 1 1 auto;
+    background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(0, 0, 0, 0.7)) no-repeat fixed, 
+    url(./images/purple.png) no-repeat center center fixed;
+    background-size: cover; 
+    justify-content: space-around;
+}
+.gallery .title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 40px;
+}
+.tiles {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    gap: 40px;
+    margin: 40px;
+}
+.one, .two, .three, .four {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 0 1 auto;
+    width: 200px;
+    text-align: center;
+}
+.tiles img {
+    border: 3px solid blue;
+    border-radius: 8px;
+    width: 200px;
+    height: 200px;
+}
+.message {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0));
+    min-height: 300px;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+.quote, .author {
+    display: flex;
+    max-width: 600px;
+}
+.quote {
+    font-size: 24px;
+    font-style: italic;
+}
+.author {
+    font-size: 20px;
+    font-weight: bold;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.call-to-action {
+    display: flex;
+    justify-content: center;
+    min-height: 200px;
+    align-items: center;
+
+}
+.box {
+    display: flex;
+    background-color: rgba(25, 17, 24, 0.845);
+    width: 80vh;
+    height: 100px;
+    border-radius: 6px;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+    gap: 30px;
+    margin: 30px;
+}
+.box .title {
+    font-size: 22px;
+    font-weight: bold;
+}
+.box .description {
+
+}
+.box button {
+    border: white solid 2px;
+    border-radius: 4px;
+    background-color: transparent;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    padding: .5em 2em;
+    min-width: 130px;
+}
+.footer {
+    min-height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

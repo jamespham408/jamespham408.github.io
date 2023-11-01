@@ -6,7 +6,7 @@ body {
     flex-direction: column;
     font-family: sans-serif;
     background-color: black;
-    background: url(./images/green.png) no-repeat center center fixed;   
+    background: url(./images/green.png) no-repeat center center;   
     background-size: contain;
     color: white;
     margin: 0;
@@ -97,8 +97,8 @@ a {
     align-items: center;
     min-height: 900px;
     flex: 1 1 auto;
-    background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(0, 0, 0, 0.7)) no-repeat fixed, 
-    url(./images/purple.png) no-repeat center center fixed;
+    background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(0, 0, 0, 0.7)) no-repeat, 
+    url(./images/purple.png) no-repeat center center;
     background-size: contain; 
     justify-content: space-around;
 }

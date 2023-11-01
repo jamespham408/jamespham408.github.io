@@ -6,9 +6,11 @@ body {
     flex-direction: column;
     font-family: sans-serif;
     background-color: black;
-    background: url(./images/green.png) no-repeat center center;   
-    background-size: 100vh auto;
+    background: url(./images/green.png) no-repeat; 
+    background-position: center center;   
+    background-size: 90vw auto;
     background-attachment: fixed;
+    /*position: fixed;*/
     color: white;
     margin: 0;
     padding: 0;
@@ -100,7 +102,7 @@ a {
     flex: 1 1 auto;
     background: 
     url(./images/purple.png) no-repeat center center;
-    background-size: 100vh auto;
+    background-size: 90vw auto;
     background-attachment: fixed; 
     justify-content: space-around;
 }
